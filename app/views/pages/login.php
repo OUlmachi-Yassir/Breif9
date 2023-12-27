@@ -1,3 +1,4 @@
+
 <!-- component -->
 <!-- This is an example component -->
 <div class="font-sans">
