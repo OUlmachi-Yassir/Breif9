@@ -25,3 +25,10 @@
       }
     }
   }
+  function isLoggedIn(){
+    if(isset($_SESSION['utilisateurs_id'])){
+      return true;
+    } else {
+      return false;
+    }
+  }

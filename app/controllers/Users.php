@@ -171,7 +171,7 @@
       $_SESSION['utilisateurs_email'] = $user->email;
       $_SESSION['utilisateurs_nom'] = $user->nom;
       $_SESSION['utilisateurs_prenom'] = $user->prenom;
-      redirect('pages/index');
+      redirect('projet');
     }
 
     public function logout(){
@@ -183,11 +183,5 @@
       redirect('users/login');
     }
 
-    public function isLoggedIn(){
-      if(isset($_SESSION['utilisateurs_id'])){
-        return true;
-      } else {
-        return false;
-      }
-    }
+   
   }
