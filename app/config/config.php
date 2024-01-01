@@ -1,18 +1,15 @@
-<?php 
-    define('DB_HOST','localhost');
+<?php
+  // DB Params
+  define('DB_HOST', 'localhost');
+  define('DB_USER', 'root');
+  define('DB_PASS', '');
+  define('DB_NAME', 'tm');
 
-    define('DB_USER','root');
-
-    define('DB_PASS','');
-
-    define('DB_NAME','tm');
-
-
-
-
-    //App root
-    define('APPROOT',dirname(dirname(__FILE__)));
-    // URLroot
-    define('URLROOT','http://localhost/traversymvc');
-    // Site name
-    define('SITENAME','TraversyMVC');
+  // App Root
+  define('APPROOT', dirname(dirname(__FILE__)));
+  // URL Root
+  define('URLROOT', 'http://localhost/taskM');
+  // Site Name
+  define('SITENAME', 'taskM');
+  // App Version
+  define('APPVERSION', '1.0.0');
